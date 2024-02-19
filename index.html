@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Facebook Clone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- style css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+<body>
+    
+
+
+    <!-- --------------------- -->
+    <!-- ---#Header Section--- -->
+    <!-- --------------------- -->
+    <nav>
+        <div class="nav-left">
+            <a href="#" class="logo"><img src="images/facebook.png" alt="facebook image"></a>
+
+            <ul>
+                <li><img src="images/chat.png" alt=""></li>
+                <li><img src="images/15.png" alt=""></li>
+                <li><img src="images/photo.png" alt=""></li>
+            </ul>
+        </div>
+
+
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/25.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="images/profile image.png">
+            </div>
+        </div>
+
+
+
+
+
+
+    
+    <!-- --------------------- -->
+    <!-- ---#Dropdown Menu---- -->
+    <!-- --------------------- -->
+            <div class="settings-menu">
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile image.png">
+
+                        <div>
+                            <p>Chris Isaac</p>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                        <div class="user-profile">
+                            <img src="images/20.png">
+                            <div>
+                                <p>Give Feedback</p>
+                                <a href="#">Help us to improve the new design</a>
+                            </div>
+                        </div>
+                        <hr>
+
+                            <div class="settings-links">
+                                <img src="images/settings.png" class="settings-icon">
+                                
+                                <a href="#">Settings & Privacy <img src="images/settings.png" width="10px"></a>
+                            </div>
+                            <div class="settings-links">
+                                <img src="images/settings.png" class="settings-icon">
+
+                                <a href="#">Help & Support <img src="images/settings.png" width="10px"></a>
+                            </div>
+                            <div class="settings-links">
+                                <img src="images/settings.png" class="settings-icon">
+
+                                <a href="#">Display & Accessibilty <img src="images/settings.png" width="10px"></a>
+                            </div>
+                            <div class="settings-links">
+                                <img src="images/settings.png" class="settings-icon">
+
+                                <a href="#">Log Out <img src="images/settings.png" width="10px"></a>
+                            </div>
+                     </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+    <!-- --------------------- -->
+    <!-- ----#Main Section---- -->
+    <!-- --------------------- -->
+
+
+            <div class="container">
+
+                <!----------- #left-sidebar---------- -->
+
+                <div class="left-side-bar">
+                    <div class="imp-links">
+                        <a href="#"><img src="images/megaphone.png">Latest News</a>
+                        <a href="#"><img src="images/18.png">Friends</a>
+                        <a href="#"><img src="images/11.png">Groups</a>
+                        <a href="#"><img src="images/shopping-bag.png">Marketplace</a>
+                        <a href="#"><img src="images/17.png">watch</a>
+                        <a href="#">See More</a>
+                    </div>
+
+
+                    <div class="shortcut-links">
+                        <p>Your shortcuts</p>
+                        <a href="#"><img src="images/16.png">Web Developers</a>
+                        <a href="#"><img src="images/16.png">Web Design course</a>
+                        <a href="#"><img src="images/16.png">Full stack Development</a>
+                        <a href="#"><img src="images/16.png">Website Experts</a>
+                    </div>
+                </div>
+       
+
+
+
+
+
+
+
+
+
+            
+              <!----------- #middle-section---------- -->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/19.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="images/post2.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="images/post3.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="images/post4.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="images/post5.jpg">
+                        <p>Post Story</p>
+                    </div>
+                </div>
+
+
+               
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile image.png">
+
+                        <div>
+                            <p>Chris Isaac</p>
+                            <small>Public</small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="10" placeholder="What's on your mind today, Chris"></textarea>
+                    
+                    
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/photo.png">Live Video</a>
+
+                        <a href="#"><img src="images/17.png">Photo/Video</a>
+
+                        <a href="#"><img src="images/thumbs-up.png">Feeling/ Activity</a>
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/images (13).jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/2.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/4.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/5.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/3.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/9.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile image.png">
+
+                            <div>
+                                <p>Chris Isaac</p>
+                                <span>June 24 2023, 13:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis, <span> inventore, dolor laudantium </span> quibusdam quae sequi quiapossimus. In, accusamus aperiam! <a href="#">#ChrisIsaac</a>
+                    <a href="#">#ChrisIsaac</a></p>
+
+                    <img src="images/imgy/2.jfif" class="post-img">
+
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <div>
+                                    <img src="images/like.png">120
+                                </div>
+                                <div>
+                                    <img src="images/chat.png">50
+                                </div>
+                                <div>
+                                    <img src="images/16.png">20
+                                </div>
+                            </div>
+
+                            <div class="post-profile-icons">
+                                <a href="#"> Find Friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-------------- right sidebar-------------- -->
+            <div class="right-sidebar">
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#"> See all</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>14</h3>
+                        <span>February</span>
+                    </div>
+
+                    <div class="right-event">
+                        <h4>Valentine's Day</h4>
+                        <p>Celebrated Each Year</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>25</h3>
+                        <span>December</span>
+                    </div>
+
+                    <div class="right-event">
+                        <h4>Christmas Day</h4>
+                        <p>Celebrated Each Year</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-title">
+                    <h4>Adevertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="images/imgy/images (13).jfif" class="sidebar-ads">
+                
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/post1.jpg">
+                    </div>
+                    <p>Mercedes Benz++</p>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/post3.jpg">
+                    </div>
+                    <p>Cross Country</p>
+                </div>
+
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/post5.jpg">
+                    </div>
+                    <p>Cross Country</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2023 - #Code-with-Z@c All Rights Reserved</p>
+        </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
